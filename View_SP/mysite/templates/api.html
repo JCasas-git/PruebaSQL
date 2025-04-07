@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resultado de Consulta</title>
+</head>
+<body>
+    <h1>Datos Consultados</h1>
+
+    {% if error %}
+        <p style="color: red; font-weight: bold;">{{ error }}</p>
+    {% elif datos %}
+        <table border="1">
+            <thead>
+                <tr>
+                    {% for col in datos.0.keys %}
+                        <th>{{ col }}</th>
+                    {% endfor %}
+                </tr>
+            </thead>
+            <tbody>
+                {% for row in datos %}
+                    <tr>
+                        {% for val in row.values %}
+                            <td>{{ val }}</td>
+                        {% endfor %}
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    {% else %}
+        <p>No se encontraron datos.</p>
+    {% endif %}
+</body>
+</html>
