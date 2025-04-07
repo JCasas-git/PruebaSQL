@@ -19,7 +19,7 @@ Restricciones:
     - El usuario debe tener permisos explícitos de lectura (Can_Read).
     - Se audita toda consulta realizada.
 
-Autor:          [Usuario]
+Autor:          [Julian Casas]
 Fecha creación: [05/05/2025]
 **************************************************************************************/
 
