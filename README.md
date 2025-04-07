@@ -6,7 +6,7 @@ Este repositorio contiene la estructura base de una solución para gestionar el 
 📌 Base de Datos (SQL Server)
 Contiene el script de creación de las siguientes entidades:
 
-Rol: Define los roles del sistema (Administrador, Nómina, Líder, Empleado).
+Rol: Define los roles del sistema.
 
 Usuario: Registro de usuarios del sistema, con su respectivo rol.
 
