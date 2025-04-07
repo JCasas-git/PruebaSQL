@@ -1,4 +1,4 @@
-# PruebaSQL-Simba
+# PruebaSQL
 🗃️ Descripción del Repositorio – Sistema de Control de Acceso y Consultas Dinámicas
 Este repositorio contiene la estructura base de una solución para gestionar el acceso controlado y auditable a información sensible de una base de datos, como datos de nómina, a través de un procedimiento almacenado (Stored Procedure) dinámico en SQL Server. Además, incluye la integración con un backend desarrollado en Django REST Framework para su consumo por aplicaciones externas.
 
